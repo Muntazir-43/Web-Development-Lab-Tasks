@@ -1,4 +1,5 @@
-- 👋 Hi, I’m @Muntazir-Mehdi
-- 📫 Roll no: 2022-SE-37
-- 🌱 I’m currently Studying in 6th Semester
-- 💞️ Course name: Web Development
+🧠 Author Info
+- 👋 Name: Muntazir Mehdi
+- 🆔 Roll No: 2022-SE-37
+- 🎓 Semester: 6th
+- 📚 Course Name: Web Development
