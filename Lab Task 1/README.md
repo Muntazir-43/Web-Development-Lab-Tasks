@@ -1,4 +1,4 @@
-# 💻 Web Development Lab Task 1
+# 💻 Web Development Lab Task 01
 
 This repository contains the solution to **Lab Task 1** of the Web Development course. The task demonstrates the use of HTML tables to create a structured layout for a CV (Curriculum Vitae) page.
 
