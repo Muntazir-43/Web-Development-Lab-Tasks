@@ -33,7 +33,7 @@ The main objective is to practice **layout building**, **navigation styling**, *
 ---
 
 ## 🖥️ How to Preview
-- Simply open the [Live Preview](https://rawcdn.githack.com/Muntazir-43/Web-Development-Lab-Tasks/5dd414b648eb7a6f4e81124df9496d5e4fe16f27/Lab%20Task%202/Task%20no%2002.html) in your browser.
+- Simply open the [Live Preview](https://muntazir-43.github.io/Web-Development-Lab-Tasks/Lab%20Task%202/Task%20no%2002.html) in your browser.
 - Alternatively, download the repository and open `Task no 02.html` locally.
 
 ---
