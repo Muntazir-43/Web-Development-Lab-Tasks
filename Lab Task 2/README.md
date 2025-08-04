@@ -32,6 +32,12 @@ The main objective is to practice **layout building**, **navigation styling**, *
 
 ---
 
+## 📸 Screenshot
+
+![Preview Screenshot](https://github.com/Muntazir-43/Web-Development-Lab-Tasks/blob/main/Lab%20Task%202/Assets/Pixel%20Power%20Preview.jpeg?raw=true)
+
+---
+
 ## 🖥️ How to Preview
 - Simply open the [Live Preview](https://muntazir-43.github.io/Web-Development-Lab-Tasks/Lab%20Task%202/Task%20no%2002.html) in your browser.
 - Alternatively, download the repository and open `Task no 02.html` locally.
