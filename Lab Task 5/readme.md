@@ -8,7 +8,7 @@ The task focused on:
 
 ---
 
-## 🔗 Live Previews  
+## 🔗 Live Previews 
 
 - 📱 **Responsive Client Ramp:**  
   [View Project](https://muntazir-43.github.io/Web-Development-Lab-Tasks/Lab%20Task%205/index.html)
