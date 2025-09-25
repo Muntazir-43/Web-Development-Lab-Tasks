@@ -15,7 +15,7 @@ Click below to preview the project live:
 
 - Apply **CSS Flexbox** properties (`display`, `justify-content`, `align-items`, etc.)
 - Create a clean and responsive **directory layout**
-- Practice organizing content using HTML5 semantic tags
+- Practice organizing content using **HTML5** semantic tags
 
 ---
 
