@@ -26,8 +26,8 @@ The task focused on:
 - `index.html` → Responsive client ramp using **media queries**.  
 - `animation task 1.html` → First **CSS animation**.  
 - `animation task 2.html` → Second **CSS animation**.  
-- `Style` → Contain Css files
-- `Assets` → Contain assets like images
+- `Style` → Contain **Css files**.
+- `Assets` → Contain assets like **images**.
 
 ---
 
