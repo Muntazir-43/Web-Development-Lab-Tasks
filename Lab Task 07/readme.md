@@ -1,21 +1,21 @@
-# 🌐 Web Development – Lab Task 6  
+# 🌐 Web Development – Lab Task 7  
 
-This repository contains my **Web Development Lab Task 6**, where I used **Bootstrap** to build a responsive homepage modeled after the “Katara” site.
+This repository contains my **Web Development Lab Task 7**, where I used **Bootstrap** to build a responsive homepage modeled after the “Katara” site.
 
 ---
 
 ## 🔗 Live Demo  
 
 - 🌍 **Katara-style Homepage:**  
-  [View Live Site](https://muntazir-43.github.io/Web-Development-Lab-Tasks/Lab%20Task%206/index.html)
+  [View Live Site](https://muntazir-43.github.io/Web-Development-Lab-Tasks/Lab%20Task%2007/index.html)
 
 ---
 
 ## 📂 File Structure  
 
-- `index.html` — Bootstrap-based responsive homepage layout.  
 - `Assets/` — includes images used on the page.
 - `Styles/` — includes stylesheets used on the page.  
+- `index.html` — Bootstrap-based responsive homepage layout.  
 
 ---
 
