@@ -10,7 +10,7 @@ Use your HTML knowledge to develop a CV layout using only **a single `<table>` e
 
 ## 🌐 Live Preview
 
-👉 [Click here to view the live page](https://muntazir-43.github.io/Web-Development-Lab-Tasks/Lab%20Task%201/Lab_Task_1.html)
+👉 [Click here to view the live page](https://muntazir-43.github.io/Web-Development-Lab-Tasks/Lab%20Task%2001/Lab_Task_1.html)
 
 ---
 
