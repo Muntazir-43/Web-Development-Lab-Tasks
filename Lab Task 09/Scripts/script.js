@@ -32,6 +32,7 @@ function success(input) {
     small.innerHTML = "";
 }
 
+
 function validation() {
     let valid = true;
 
