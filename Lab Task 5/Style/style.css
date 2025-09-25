@@ -12,6 +12,11 @@ body {
     border: 2px solid red;
 }
 
+.logo{
+    margin-left: 5.5vw;
+                
+}
+
 .menu {
     height: 8vh;
     display: flex;
@@ -869,4 +874,5 @@ h1 {
 .footer-logos img {
     height: clamp(10px,5vw,1.4vw);
 }
+
 
