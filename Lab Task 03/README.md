@@ -28,7 +28,7 @@ Click below to preview the project live:
 
 ## 📸 Screenshot
 
-![Preview Screenshot](https://github.com/Muntazir-43/Web-Development-Lab-Tasks/blob/main/Lab%20Task%203/Assets/Client%20Ramp.jpeg?raw=true)
+![Preview Screenshot](https://github.com/Muntazir-43/Web-Development-Lab-Tasks/blob/main/Lab%20Task%2003/Assets/Client%20Ramp.jpeg?raw=true)
 
 ---
 
