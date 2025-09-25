@@ -10,10 +10,10 @@ The task focused on:
 ## 🔗 Live Previews 
 
 - 🎬 **Animation Task 1:**  
-  [View Animation 1](https://muntazir-43.github.io/Web-Development-Lab-Tasks/Lab%20Task%2005/animation%20task%201.html)
+  [View Animation 1](https://muntazir-43.github.io/Web-Development-Lab-Tasks/Lab%20Task%2006/animation%20task%201.html)
 
 - 🎥 **Animation Task 2:**  
-  [View Animation 2](https://muntazir-43.github.io/Web-Development-Lab-Tasks/Lab%20Task%2005/animation%20task%202.html)
+  [View Animation 2](https://muntazir-43.github.io/Web-Development-Lab-Tasks/Lab%20Task%2006/animation%20task%202.html)
 
 ---
 
