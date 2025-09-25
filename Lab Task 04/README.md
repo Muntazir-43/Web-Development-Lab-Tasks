@@ -7,7 +7,7 @@ This directory contains **Lab Task 4** for the Web Development course. The focus
 ## 🔗 Live Demo
 
 Click below to preview the project live:  
-👉 [View Live Project](https://muntazir-43.github.io/Web-Development-Lab-Tasks/Lab%20Task%204/index.html)
+👉 [View Live Project](https://muntazir-43.github.io/Web-Development-Lab-Tasks/Lab%20Task%2004/index.html)
 
 ---
 
@@ -28,7 +28,7 @@ Click below to preview the project live:
 
 ## 📸 Screenshot
 
-![Preview Screenshot](https://github.com/Muntazir-43/Web-Development-Lab-Tasks/blob/main/Lab%20Task%204/Assests/Grid%20Task%20Preview.jpeg?raw=true)
+![Preview Screenshot](https://github.com/Muntazir-43/Web-Development-Lab-Tasks/blob/main/Lab%20Task%2004/Assests/Grid%20Task%20Preview.jpeg?raw=true)
 
 ---
 
