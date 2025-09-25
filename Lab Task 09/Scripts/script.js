@@ -24,11 +24,11 @@ function error(input, message) {
 }
 
 function success(input) {
+    let small = input.parentElement.children[2];
     input.style.outline = "2px solid green";
     input.style.border = "none";
     small.classList.remove("error");
     input.style.boxShadow = "0 0 5px rgba(0, 128, 0, 0.5)";
-    let small = input.parentElement.children[2];
     small.innerHTML = "";
 }
 
