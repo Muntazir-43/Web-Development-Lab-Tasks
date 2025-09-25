@@ -12,7 +12,7 @@ The main objective is to practice **layout building**, **navigation styling**, *
 
 ## 🌐 Live Preview
 
-👉 [Click here to view the live page](https://muntazir-43.github.io/Web-Development-Lab-Tasks/Lab%20Task%202/Task%20no%2002.html)
+👉 [Click here to view the live page](https://muntazir-43.github.io/Web-Development-Lab-Tasks/Lab%20Task%2002/Task%20no%2002.html)
 
 ---
 
