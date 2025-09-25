@@ -1,5 +1,10 @@
 @media (max-width : 1000px) {
 
+    .logo{
+        margin-left: 0vw;
+                
+    }
+
     .Project {
         flex-direction: column;
         padding-left: 0px;
@@ -245,5 +250,6 @@
     .animated-waves {
         top: 5vh;
     }
+
 
 }
