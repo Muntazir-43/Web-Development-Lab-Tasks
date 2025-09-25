@@ -7,7 +7,7 @@ This directory contains **Lab Task 3** for the Web Development course. The focus
 ## 🔗 Live Demo
 
 Click below to preview the project live:  
-👉 [View Live Project](https://muntazir-43.github.io/Web-Development-Lab-Tasks/Lab%20Task%203/index.html)
+👉 [View Live Project](https://muntazir-43.github.io/Web-Development-Lab-Tasks/Lab%20Task%2003/index.html)
 
 ---
 
