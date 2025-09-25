@@ -92,7 +92,7 @@ body {
     height: 65vh;
     background: linear-gradient(rgba(0, 92, 128, 0.6),
             rgba(0, 92, 128, 0.6)),
-        url('https://muntazir-43.github.io/Web-Development-Lab-Tasks/Lab%20Task%205/Assets/home-banner-bg.jpg') no-repeat center center/cover;
+        url('https://muntazir-43.github.io/Web-Development-Lab-Tasks/Lab%20Task%2005/Assets/home-banner-bg.jpg') no-repeat center center/cover;
     display: flex;
     flex-direction: column;
 }
