@@ -3,31 +3,22 @@
 
 This repository contains my **Web Development Lab Task 5**.  
 The task focused on:  
-1. **Responsive Design** – Implemented using **media queries** to make the client ramp responsive.  
-2. **CSS Transitions & Animations** – Created two different animations as part of the task.  
+**Responsive Design** – Implemented using **media queries** to make the client ramp responsive.
 
 ---
 
 ## 🔗 Live Previews 
 
 - 📱 **Responsive Client Ramp:**  
-  [View Project](https://muntazir-43.github.io/Web-Development-Lab-Tasks/Lab%20Task%205/index.html)
-
-- 🎬 **Animation Task 1:**  
-  [View Animation 1](https://muntazir-43.github.io/Web-Development-Lab-Tasks/Lab%20Task%205/animation%20task%201.html)
-
-- 🎥 **Animation Task 2:**  
-  [View Animation 2](https://muntazir-43.github.io/Web-Development-Lab-Tasks/Lab%20Task%205/animation%20task%202.html)
+  [View Project](https://muntazir-43.github.io/Web-Development-Lab-Tasks/Lab%20Task%2005/index.html)
 
 ---
 
 ## 📂 Files Included  
 
-- `index.html` → Responsive client ramp using **media queries**.  
-- `animation task 1.html` → First **CSS animation**.  
-- `animation task 2.html` → Second **CSS animation**.  
-- `Style` → Contain **Css files**.
 - `Assets` → Contain assets like **images**.
+- `Style` → Contain **Css files**.
+- `index.html` → Responsive client ramp using **media queries**. 
 
 ---
 
