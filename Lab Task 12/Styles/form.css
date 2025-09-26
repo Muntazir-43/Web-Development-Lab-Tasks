@@ -1,0 +1,99 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #74ebd5, #acb6e5);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form h2 {
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 25px;
+    background: linear-gradient(90deg, #6c5ce7, #00cec9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+/* Form Container */
+form {
+    background: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(12px);
+    border-radius: 16px;
+    padding: 40px;
+    width: 100%;
+    max-width: 500px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Heading */
+form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #2d3436;
+}
+
+/* Labels */
+label {
+    display: block;
+    margin-bottom: 8px;
+    margin-top: 15px;
+    font-weight: 600;
+    color: #2d3436;
+}
+
+/* Inputs */
+input[type="text"],
+input[type="email"],
+input[type="date"] {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+    background-color: white;
+}
+
+input:focus {
+    border-color: #6c5ce7;
+    outline: none;
+}
+
+/* Submit Button */
+button[type="submit"] {
+    width: 100%;
+    padding: 14px;
+    margin-top: 25px;
+    background: #6c5ce7;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background: #5a4dcf;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    form {
+        padding: 30px 20px;
+    }
+}
