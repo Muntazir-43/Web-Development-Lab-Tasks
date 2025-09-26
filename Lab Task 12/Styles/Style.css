@@ -1,0 +1,148 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #74ebd5, #acb6e5);
+    min-height: 100vh;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #333;
+}
+
+/* Heading */
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #2c3e50;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+}
+
+/* Add Student Link */
+a[href="form.php"] {
+    background-color: #6c5ce7;
+    color: white;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+a[href="form.php"]:hover {
+    background-color: #4834d4;
+}
+
+/* Table */
+table {
+    width: 100%;
+    max-width: 1100px;
+    background: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(10px);
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    border-collapse: collapse;
+}
+
+/* Table Head */
+thead {
+    background-color: #2d3436;
+    color: #fff;
+    font-size: 1rem;
+}
+
+thead th {
+    padding: 16px;
+    text-align: left;
+}
+
+/* Table Rows */
+tbody td {
+    padding: 16px;
+    border-bottom: 1px solid #ddd;
+    font-size: 0.95rem;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f8f8f8;
+}
+
+tbody tr:hover {
+    background-color: #dfe6e9;
+    transition: background 0.2s ease;
+}
+
+/* Action Links */
+td a {
+    margin-right: 10px;
+    padding: 6px 12px;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    text-decoration: none;
+    font-weight: 500;
+    color: white;
+    transition: background 0.3s ease;
+}
+
+td a[href*="form.php"] {
+    background-color: #00b894;
+}
+
+td a[href*="form.php"]:hover {
+    background-color: #019875;
+}
+
+td a[href*="delete.php"] {
+    background-color: #d63031;
+}
+
+td a[href*="delete.php"]:hover {
+    background-color: #c0392b;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    table, thead, tbody, th, td, tr {
+        display: block;
+    }
+
+    thead {
+        display: none;
+    }
+
+    tbody tr {
+        margin-bottom: 15px;
+        background-color: white;
+        border-radius: 10px;
+        padding: 10px;
+    }
+
+    tbody td {
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        border: none;
+        border-bottom: 1px solid #eee;
+    }
+
+    tbody td::before {
+        content: attr(data-label);
+        font-weight: bold;
+        color: #555;
+    }
+
+    td a {
+        margin-top: 8px;
+    }
+}
