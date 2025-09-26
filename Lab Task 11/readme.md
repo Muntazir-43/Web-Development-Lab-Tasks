@@ -26,7 +26,7 @@ This directory contains **Lab Task 11** for the Web Development course. The proj
 
 ## 🛠 Technologies
 - HTML5, CSS3, JavaScript  
-- Backend: PHP (or similar)  
+- Backend: PHP  
 - Database: MySQL  
 
 ---
@@ -56,3 +56,4 @@ This directory contains **Lab Task 11** for the Web Development course. The proj
 This code is part of an academic lab submission and is intended for educational use only.
 
 ---
+
