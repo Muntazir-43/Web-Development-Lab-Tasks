@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Dynamic Blog</title>
+
+        <!-- Font Awesome -->
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+        <!-- Styles -->
+        <link rel="stylesheet" href="./Styles/style.css" />
+    </head>
+    <body>
+        <!-- Header (sticky) -->
+        <header class="header">
+            <div class="header-container">
+                <div class="branding">
+                    <h1><img src="./Assets/Logo.png" alt="logo">My Dynamic Blog</h1>
+                    <p>Discover stories powered by JSONPlaceholder API</p>
+                </div>
+
+                <div class="header-controls">
+                    <div class="search-wrap">
+                        <input type="text" id="searchInput"
+                            placeholder="Search posts (title, body or category)..."
+                            aria-label="Search posts" />
+                        <button id="searchBtn" title="Search"><i
+                                class="fa-solid fa-magnifying-glass"></i></button>
+                    </div>
+
+                    <select id="categoryFilter" aria-label="Filter by category">
+                        <option value="all">All</option>
+                        <option value="tech">Tech</option>
+                        <option value="travel">Travel</option>
+                        <option value="lifestyle">Lifestyle</option>
+                        <option value="education">Education</option>
+                    </select>
+
+                    <button id="darkModeToggle" title="Toggle dark mode"><i
+                            class="fa-solid fa-moon"></i> <span
+                            class="btn-text">Dark Mode</span></button>
+                </div>
+            </div>
+        </header>
+
+        <main class="main-layout">
+            <!-- Posts content -->
+            <div class="content">
+                <div class="container" id="postsContainer"></div>
+
+                <!-- Pagination -->
+                <div class="pagination">
+                    <button id="prevBtn"><i class="fa-solid fa-arrow-left"></i>
+                        Previous</button>
+                    <span id="pageInfo"></span>
+                    <button id="nextBtn">Next <i
+                            class="fa-solid fa-arrow-right"></i></button>
+                </div>
+            </div>
+
+            <!-- Sidebar -->
+            <aside class="sidebar">
+                <div class="sidebar-card">
+                    <h3>Latest Posts</h3>
+                    <div id="latestPosts" class="mini-posts"></div>
+                </div>
+
+                <div class="sidebar-card">
+                    <h3>Trending Posts</h3>
+                    <div id="trendingPosts" class="mini-posts"></div>
+                </div>
+
+                <div class="sidebar-card">
+                    <h3>Categories</h3>
+                    <ul>
+                        <li data-cat="tech">Tech</li>
+                        <li data-cat="travel">Travel</li>
+                        <li data-cat="lifestyle">Lifestyle</li>
+                        <li data-cat="education">Education</li>
+                    </ul>
+                </div>
+            </aside>
+
+        </main>
+
+        <!-- Modal for full post -->
+        <div id="postModal" class="modal" aria-hidden="true">
+            <div class="modal-content">
+                <button id="closeModal" class="modal-close"
+                    aria-label="Close">&times;</button>
+                <div class="modal-body-wrapper">
+                    <div class="modal-left">
+                        <img id="modalImg" class="modal-img" alt="Post image" />
+                    </div>
+                    <div class="modal-right">
+                        <h2 id="modalTitle"></h2>
+                        <p class="meta"><strong>Category:</strong> <span
+                                id="modalCategory"></span> • <strong>Post
+                                ID:</strong> <span id="modalId"></span></p>
+                        <div id="modalBody" class="modal-body"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Newsletter -->
+        <section class="newsletter" aria-live="polite">
+            <h2><i class="fa-solid fa-envelope-open-text"></i> Subscribe to our
+                Newsletter</h2>
+            <p>Stay updated with the latest posts, trending topics, and
+                exclusive content.</p>
+
+            <div class="newsletter-form">
+                <input type="email" id="newsletterEmail"
+                    placeholder="Enter your email..."
+                    aria-label="Newsletter email" />
+                <button id="subscribeBtn"><i
+                        class="fa-solid fa-paper-plane"></i> Subscribe</button>
+            </div>
+            <p id="newsletterMsg" class="newsletter-msg"
+                aria-hidden="false"></p>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>© 2025 My Blog | Designed with ❤ by <strong></strong></p>
+        </footer>
+
+        <script src="./Scripts/script.js"></script>
+    </body>
+</html>
