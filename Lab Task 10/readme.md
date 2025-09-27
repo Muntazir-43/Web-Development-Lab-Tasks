@@ -6,7 +6,7 @@ This directory contains **Lab Task 10** for the Web Development course. The goal
 
 ## 🎯 Key Features
 
-- Use `require_once` or `include` to modularize **header**, **footer**, and other common parts  
+- Use `require_once` to modularize **header**, **footer**, and other common parts  
 - A central template structure (CliffSide theme)  
 - Pages reuse the same template components  
 - Clean styling, navigation consistency across pages  
@@ -18,7 +18,7 @@ This directory contains **Lab Task 10** for the Web Development course. The goal
 
 - HTML5  
 - CSS3  
-- PHP (templating, includes)  
+- PHP (templating)  
 
 ---
 
@@ -63,3 +63,4 @@ This directory contains **Lab Task 10** for the Web Development course. The goal
 This code is part of an academic lab submission and is intended for educational use only.
 
 ---
+
