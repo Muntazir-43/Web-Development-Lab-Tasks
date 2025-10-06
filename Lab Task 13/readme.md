@@ -4,7 +4,7 @@
 ---
 
 ## 🎯 **Objective**
-The objective of this open-ended lab is to **build a small web application** that integrates a **public API** using **HTML, CSS, Bootstrap, JavaScript, and PHP**.  
+The objective of this open-ended lab is to **build a small web application** that integrates a **public API** using **HTML, CSS, Bootstrap,and JavaScript**.  
 The project demonstrates the ability to fetch, process, and present **real-world data** from APIs in a **clean, responsive, and interactive interface**.
 
 ---
@@ -55,7 +55,6 @@ The goal was to create a **visually engaging**, **user-friendly**, and **dynamic
 | Layer | Technologies Used |
 |-------|--------------------|
 | **Frontend** | HTML5, CSS3, Bootstrap 5, JavaScript (ES6), Font Awesome |
-| **Backend** | PHP (for secure API key handling and dynamic data loading) |
 | **APIs** | TheMealDB, Open Trivia Database |
 | **Hosting** | GitHub Pages |
 
@@ -146,4 +145,5 @@ This project is developed for **educational purposes** as part of the *Web Devel
 All external **APIs and assets belong to their respective owners**.
 
 ---
+
 
