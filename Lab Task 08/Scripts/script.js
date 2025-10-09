@@ -29,8 +29,25 @@ const newsletterEmail = document.getElementById("newsletterEmail");
 const subscribeBtn = document.getElementById("subscribeBtn");
 const newsletterMsg = document.getElementById("newsletterMsg");
 
+const dotsLoader = document.getElementById("dotsLoader");
+
+function showLoader() {
+  if (!dotsLoader) return;
+  dotsLoader.classList.remove("hidden");
+  dotsLoader.setAttribute("aria-hidden", "false");
+}
+
+function hideLoader() {
+  if (!dotsLoader) return;
+  setTimeout(() => {
+    dotsLoader.classList.add("hidden");
+    dotsLoader.setAttribute("aria-hidden", "true");
+  }, 200);
+}
+
 async function main() {
     try {
+        showLoader(); 
         const response = await fetch("https://jsonplaceholder.typicode.com/posts");
         posts = await response.json();
 
@@ -46,7 +63,10 @@ async function main() {
     } catch (err) {
         console.error("Failed to fetch posts:", err);
         postsContainer.innerHTML = "<p style='padding:1rem'>Unable to load posts right now.</p>";
+    } finally {
+    hideLoader();                    // <- hide after render/update
     }
+    
 }
 
 /* ---------- RENDER POSTS ---------- */
