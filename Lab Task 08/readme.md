@@ -53,5 +53,3 @@ This directory contains **Lab Task 8** for the Web Development course. The aim o
 This code is part of an academic lab submission and is intended for educational use only.
 
 ---
-
-
